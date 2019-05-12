@@ -1,3 +1,4 @@
+/* Universal syles */
 html {
     font-size: 16px;
 }
@@ -10,12 +11,38 @@ body {
     text-align: center;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+/* Header */
 header h1 {    
-    font-size: 3.125rem;
-    color: #fff;    
+    font-size: 3.125rem;   
 }
 
 header a {
     color: aquamarine;
     font-size: 1rem;
+}
+
+/* Description section */
+
+#description h2 {
+    font-weight: 300;
+    font-size: 2.625rem;
+}
+
+#description p {
+    color: gray;
+    font-size: 1.3125rem;
+}
+
+#description img {
+    margin: 0 auto;
 }
