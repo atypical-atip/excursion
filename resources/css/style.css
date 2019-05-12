@@ -1,4 +1,4 @@
-/* Universal syles */
+/* Global syles */
 html {
     font-size: 16px;
 }
@@ -21,28 +21,45 @@ h1, h2 {
     color: #fff;
 }
 
+h2 {
+    font-weight: 300;
+    font-size: 2.625rem;
+}
+
+a {
+    color: aquamarine;
+    font-size: 1rem;
+}
+
+p {
+    color: gray;
+    font-size: 1.3125rem;
+}
+
 /* Header */
 header h1 {    
     font-size: 3.125rem;   
 }
 
-header a {
-    color: aquamarine;
-    font-size: 1rem;
-}
-
 /* Description section */
-
-#description h2 {
-    font-weight: 300;
-    font-size: 2.625rem;
-}
-
-#description p {
-    color: gray;
-    font-size: 1.3125rem;
-}
 
 #description img {
     margin: 0 auto;
+}
+
+/* exclamation section */
+
+.exclamation {
+    padding: 30px 0;
+}
+
+.exclamation img {
+    margin: 0 auto;
+}
+
+/* footer */
+
+footer {
+    padding: 20px 10px;
+    text-align: right;
 }
